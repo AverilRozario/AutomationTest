@@ -18,9 +18,9 @@ public class GraceBoutiqueTest extends GraceBoutiqueBaseClass{
 		
 		GB.verifyLogo();
 		
-		//GB.linkCount();
+		GB.linkCount();
 
-		//GB.pageSource();
+		GB.pageSource();
 		
 		GB.loginIcon();
 		
