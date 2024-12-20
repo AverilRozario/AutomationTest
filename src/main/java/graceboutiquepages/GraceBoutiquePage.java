@@ -96,37 +96,9 @@ public class GraceBoutiquePage {
 	@FindBy(xpath = "//*[@id=\"container-box\"]/div[4]/div/div/div/div[1]/div[2]/div[1]/div[1]/div[2]/a")
 	WebElement Item;
 	
-	//@FindBy(xpath = "//*[@id=\"purchaseOpsSec\"]/div[1]/div[1]/div[2]/div/div[2]")
-	//WebElement Quantity;
-	
-	//@FindBy(xpath = "//*[@id=\"favHeartIco\"]")
-	//WebElement Wishlist;
-	
 	@FindBy(xpath = "//*[@id=\"addToCartBtn\"]")
 	WebElement AddToCart;
-	
-	//@FindBy(xpath = "//*[@id=\"buyItNowBtn\"]")
-	//WebElement BuyitNow;
-	
-	//@FindBy(xpath = "//*[@id=\"state\"]")
-	//WebElement State;
-	
-	//@FindBy(xpath = "//*[@id=\"pincode\"]")
-	//WebElement Pincode;
-	
-	//@FindBy(xpath = "//*[@id=\"container-box\"]/div[4]/div/div/div/div[1]/div[2]/div[5]/a")
-	//WebElement ReturnPolicy;
-	
-	//@FindBy(xpath = "//*[@id=\"container-box\"]/div[4]/div/div/div/div[5]/ul/li[13]/a")
-	//WebElement Next;
-	
-	//@FindBy(xpath = "//*[@id=\"container-box\"]/div[4]/div/div/div/div[5]/ul/li[1]/a")
-	//WebElement Previous;
-	
-	//@FindBy(xpath = "//*[@id=\"container-box\"]/div[4]/div/div/div/div[5]/ul/li[16]/a")
-	//WebElement Last;
-	
-	
+
 	public GraceBoutiquePage(WebDriver driver)
 	{
 		this.driver = driver;
