@@ -18,4 +18,13 @@ public class GraceBoutiqueBaseClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
+
+	@AfterTest
+    	public void tearDown() 
+	{
+        if (driver != null)
+	{
+            driver.quit();  
+        }
+    }
 }
